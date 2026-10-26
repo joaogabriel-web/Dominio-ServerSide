@@ -11,9 +11,9 @@
     "url": "git+https://github.com/joaogabriel-web/Dominio-ServerSide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "joao gabriel",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "moduele",
   "bugs": {
     "url": "https://github.com/joaogabriel-web/Dominio-ServerSide/issues"
   },
