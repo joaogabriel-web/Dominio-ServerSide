@@ -1,4 +1,4 @@
-import * as service from "../service/jogadorService.js";
+import service from "../service/jogadorService.js";
 
 async function Listar(req, res) {
     try {

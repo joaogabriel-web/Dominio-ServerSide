@@ -1,4 +1,4 @@
-import * as repository from "../repositories/jogadorRepository.js";
+import repository from "../repositories/jogadorRepository.js";
 
 async function Listar() {
     return await repository.Listar();
