@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/jogadores
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome_jogador\": \"Jogador teste\",\r
+
+    \  \"habilidade_principal\": \"Estratégia\"\r
+
+    }"
+order: 1000
