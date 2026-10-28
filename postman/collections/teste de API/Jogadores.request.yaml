@@ -5,9 +5,11 @@ body:
   type: json
   content: "{\r
 
-    \  \"nome_jogador\": \"Jogador teste\",\r
+    \  \"codigo_jogador\": 1,\r
 
-    \  \"habilidade_principal\": \"Estratégia\"\r
+    \  \"nome_jogador\": \"Faker\",\r
+
+    \  \"habilidade_principal\": \"Mid\"\r
 
     }"
 order: 1000

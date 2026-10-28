@@ -1,0 +1,36 @@
+Criar Jogador - POST /jogadores
+{
+  "codigo_jogador": 1,
+  "nome_jogador": "Faker",
+  "habilidade_principal": "Mid Lane"
+}
+
+Listar Jogadores - GET /jogadores
+
+
+Buscar por Código - GET /jogadores/:código
+GET /jogadores/1
+
+Atualizar - PUT /jogadores/:código
+{
+  "nome_jogador": "Faker T1",
+  "habilidade_principal": "Mid Laner"
+}
+
+
+Excluir - DELETE /jogadores/:código
+DELETE /jogadores/1?tipo=logica
+
+EXCLUSAO DEFINITIVA - DELETE /jogadores/1?tipo=definitiva
+
+Buscar por Nome - GET /jogadores/busca?nome=faker
+GET /jogadores/busca?nome=faker
+
+
+(O código do Jogador não e necessário, Por que so vai aparecer quando estiver no banco de dados)
+
+{
+  "codigo_jogador": 1,
+  "nome_jogador": "Faker",
+  "habilidade_principal": "Mid"
+}
